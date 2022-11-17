@@ -1,16 +1,9 @@
-import { Text, View } from "react-native";
+import { Home } from "./src/screens/Home";
 
- 
- 
- export default function App() {
+export default function App() {
   return (
-    <View>
-      <Text>
-        Vai fluir Cachorro
-      </Text>
-      <Text>
-        Só acreditar e dar seu máximo!
-      </Text>
-    </View>
+    <Home />
   )
- }
+}
+
+
