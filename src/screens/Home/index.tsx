@@ -1,5 +1,4 @@
 import { Text, TextInput, TouchableOpacity, View, FlatList, Alert } from "react-native";
-
 import  React, { useState }  from "react";
 
 import { styles } from './styles'
@@ -20,8 +19,6 @@ import { Participant } from "../components/Participant";
   }
 
   function handleParticipantRemove(name: string) {
-    
-    
     Alert.alert("Remover", `Deseja remover o participante ${name}?`, [
       {
         text: 'Sim',
@@ -80,11 +77,6 @@ import { Participant } from "../components/Participant";
         </Text>
       )}
       />
-       
-         
-      
-
-      
     </View>
   )
  }
